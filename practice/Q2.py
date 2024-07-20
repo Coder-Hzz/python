@@ -14,5 +14,3 @@ for i in range(1,min):
     else:
         print(strs[0][0:i-1])
         print(i-1)
-        break
-
