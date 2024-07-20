@@ -10,4 +10,3 @@ for i in range(len(nums)):
         j+=1
     i+=1
 print('max=',max(list))
-
