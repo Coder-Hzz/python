@@ -1,0 +1,12 @@
+import os.path
+print('目录或文件的绝对路径:',os.path.abspath('./new_stu.txt'))
+print('判断目录或文件在磁盘上是否存在:',os.path.exists('./new_stu.txt'))
+print('判断目录或文件在磁盘上是否存在:',os.path.exists('./stu.txt'))
+print('判断目录或文件在磁盘上是否存在:',os.path.exists('./abc'))
+print('拼接路径:',os.path.join(r'D:\Users\LENOVO\PycharmProjects\pythonProject\8.22-文件与数据存储','new_stu.txt'))
+print('分隔文件名和文件后缀名:',os.path.splitext('new_stu.txt'))
+print('提取文件名:',os.path.basename(r'D:\Users\LENOVO\PycharmProjects\pythonProject\8.22-文件与数据存储\new_stu.txt'))
+print('提取路径:',os.path.dirname(r'D:\Users\LENOVO\PycharmProjects\pythonProject\8.22-文件与数据存储\new_stu.txt'))
+print('判断是否为有效路径:',os.path.isdir(r'D:\Users\LENOVO\PycharmProjects\pythonProject\8.22-文件与数据存储'))
+print('判断是否为有效路径:',os.path.isdir(r'D:\Users\LENOVO\PycharmProjects\pythonProject\8.202-文件与数据存储'))
+print('判断是否为有效文件:',os.path.isfile(r'D:\Users\LENOVO\PycharmProjects\pythonProject\8.22-文件与数据存储\new_stu.txt'))
